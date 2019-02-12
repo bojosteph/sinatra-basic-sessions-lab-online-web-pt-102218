@@ -8,5 +8,7 @@ class App < Sinatra::Base
     set :session_secret, "katmando"
   end
   
+  get '/' do
+    
   
 end

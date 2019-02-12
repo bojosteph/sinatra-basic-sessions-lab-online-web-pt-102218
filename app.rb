@@ -16,6 +16,7 @@ class App < Sinatra::Base
     @sessions = session
     item = params["item"]
     @sessions[:item] = item
+    erb :cart
   end
   
 end
